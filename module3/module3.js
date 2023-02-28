@@ -198,22 +198,22 @@
 
 
 
-const Townsville = {
-    name: 'Townsville',
-    population: 203620,
-    state: 'QLD',
-    founded: '27 May 1865',
-    timezone: 'Australia/Brisbane'
-    }
+// const Townsville = {
+//     name: 'Townsville',
+//     population: 203620,
+//     state: 'QLD',
+//     founded: '27 May 1865',
+//     timezone: 'Australia/Brisbane'
+//     }
 
-function objectLoop(City){
-for (let cityprop in City) {
+// function objectLoop(City){
+// for (let cityprop in City) {
   
-  console.log(City.population)
+//   console.log(City.population)
    
-}
-}
-objectLoop(Townsville)
+// }
+// }
+// objectLoop(Townsville)
 
 
 
@@ -222,22 +222,22 @@ objectLoop(Townsville)
 
 
 
-const Cairns = {
-    name: 'Ca',
-    population: 203620,
-    state: 'QLD',
-    founded: '27 May 1865',
-    timezone: 'Australia/Brisbane'
-    }
+// const Cairns = {
+//     name: 'Ca',
+//     population: 203620,
+//     state: 'QLD',
+//     founded: '27 May 1865',
+//     timezone: 'Australia/Brisbane'
+//     }
 
-function objectLoop(City){
-for (let cityprop in City) {
+// function objectLoop(City){
+// for (let cityprop in City) {
   
-  console.log(City.population)
+//   console.log(City.population)
    
-}
-}
-objectLoop(Townsville)
+// }
+// }
+// objectLoop(Townsville)
  
    
 
@@ -330,4 +330,112 @@ objectLoop(Townsville)
 
 
 
+// const product = {
+//     name1: Jason,
+//     catagory: shoes,
+//     Price: 359.29,
+//     discount-percent: 5,
+//     vauleOf(){
+//         return this.Price - (this.price * this.discount_percent/100) + (this.price * (this.gst_percent/100))
+//     },
+//     toString() {
+//         (return `${this.name} (${this catagory})`
+//     }
+// }
+// console.log(${producut) 'with quantiy' 5 costs $${((product *5))}.`)
+// }
 
+// const product2 = {
+//     name: 'JS',
+//     category: 'shoes',
+//     price: 320.00,
+//     discount_percent: 5,
+//     gst_percent: 20,
+//     //defines how this object is treated as a number
+//     valueOf() {
+//         //take the discount and gst into account
+//         return this.price - (this.price * (this.discount_percent/100)) + (this.price * (this.gst_percent/100))
+//     },
+//     //defines how this object is represented as a string
+//     toString() {
+//         return `${this.name} (${this.category})`
+//     }    
+// }
+
+// let billion = 1_000_000_000
+// let million = 1_000_000
+
+// console.log(billion)
+// console.log(million)
+
+
+
+
+
+
+
+
+
+
+
+let teamSports = ['Hockey', 'Cricket', 'Volleyball'];
+let moreSports = teamSports
+console.log (teamSports)
+moreSports.unshift ('Netball')
+console.log (teamSports)
+
+let moreSports2 = [...teamSports]
+moreSports2.push ('moreSports')
+console.log (teamSports)
+
+// const Sports = teamSports.concat (moreSports)
+// console.log (Sports)
+
+
+
+
+
+
+let dog1 = 'Bingo';
+let dog2 = dog1;
+dog2 = 'Ringo';
+
+let cat1 = { name: 'Fluffy', breed: 'Siberian' };
+let cat2 = cat1 
+cat2.name = 'Rain'
+
+
+console.log (dog1)
+console.log (cat1)
+
+
+// const cities_au = ['Sydney', 'Melbourne', 'Adelaide', 'Cairns', 'Brisbane']
+// const cities_nz = ['Auckland', 'Christchurch', 'Hamilton', 'Wellington', 'Queenstown']
+
+// cities_au.shift ('Perth')
+// console.log (cities_au)
+
+// let first4NZCities= cities_nz.slice (0,3)
+// console.log(first4NZCities)
+
+// cities_au.splice(4, 0, 'Townsville')
+// console.log(cities_au)
+
+// cities.forEach ((cities) => console.log(${cities}))
+
+
+
+// const people = [
+//     {firstName: 'Wendy', lastName: 'Darton', age: 52, location: 'QLD'},
+//     {firstName: 'Steven', lastName: 'Williams', age: 41, location: 'NSW'},
+//     {firstName: 'Phillip', lastName: 'Robertson', age: 38, location: 'VIC'},
+//     {firstName: 'Connor', lastName: 'Edmonds', age: 24, location: 'NZ'},
+//     {firstName: 'Sheila', lastName: 'Horne', age: 37, location: 'QLD'},
+// ]
+// people.forEach(person, index) => {
+//     console.log (index)
+//     console.log (person.location);
+//     console.log (person.age);
+// }
+
+// let VICPerson = people.find(person => person.location = 'VIC')
